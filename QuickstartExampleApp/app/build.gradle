@@ -27,8 +27,15 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
+
+    compile 'com.parse:parse-android:1.16.2' //update version to the latest one
+
 }
 
 repositories {
     mavenCentral()
+    jcenter()
+    maven {
+        url "https://maven.google.com"
+    }
 }
