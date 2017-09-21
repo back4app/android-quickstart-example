@@ -1,0 +1,8 @@
+*.iml
+/QuickstartExampleApp/.gradle
+/QuickstartExampleApp/local.properties
+/QuickstartExampleApp/.idea
+/QuickstartExampleApp/.DS_Store
+/QuickstartExampleApp/build
+/QuickstartExampleApp/captures
+/QuickstartExampleApp/.externalNativeBuild
