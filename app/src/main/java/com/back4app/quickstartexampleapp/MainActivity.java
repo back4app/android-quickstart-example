@@ -16,8 +16,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Parse.initialize(this);
-
         // Save the current Installation to Back4App
         ParseInstallation.getCurrentInstallation().saveInBackground();
 
