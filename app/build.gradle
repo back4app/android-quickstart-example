@@ -26,7 +26,7 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'
     // Don't forget to change the line below with the latest version of Parse SDK for Android
-    implementation "com.github.parse-community.Parse-SDK-Android:parse:latest.version.here"
+    implementation "com.github.parse-community.Parse-SDK-Android:parse:1.18.5"
 }
 
 repositories {
